@@ -50,7 +50,9 @@
         android:textSize="20sp"
         tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="90dp"
-        tools:text="tweet" />
+        tools:text="tweet"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 
     <TextView
         android:id="@+id/tvTime"
